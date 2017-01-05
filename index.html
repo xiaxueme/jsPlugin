@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>时间你好</title>
+	<script src="http://apps.bdimg.com/libs/jquery/2.1.4/jquery.min.js"></script>
+	<script src="tips.js"></script>
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<style type="text/css">
+	.tip{
+		margin:50px;
+		margin-left: -50px;
+		top:100px;
+		left: 50%;
+		position: relative;
+		width: 100px;
+		border:1px solid #00b3ee;
+		text-align: center;
+	}
+	.tip2{
+		margin:50px;
+		margin-left: -50px;
+		top:150px;
+		left: 50%;
+		position: relative;
+		width: 100px;
+		border:1px solid #00b3ee;
+		text-align: center;
+	}
+	</style>
+</head>
+<body>
+	<!-- <div class="tip-container">
+		<div class="top">
+			<div class="tip-content">我爱慕课网</div>
+		</div>
+	</div> -->
+	<div class="tip" data-tip="我爱编程" data-mode="top" title="aaa">我爱编程</div>
+	<div class="tip2" data-tip="我爱编程" data-mode="bottom" title="aaa">我爱编程</div>
+	<script type="text/javascript">
+		$('.tip').tip();
+		$('.tip2').tip();
+	</script>
+</body>
+</html>

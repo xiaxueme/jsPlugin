@@ -1,7 +1,7 @@
 (function($){
 	var modePos;
 	$.fn.tip=function(options){
-		//默认配置 方向
+		//默认配置
 		var set=$.extend({
 			"mode":'top'
 		},options);

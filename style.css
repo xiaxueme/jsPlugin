@@ -15,7 +15,7 @@
 .top,.bottom{
 	position: relative;
 	background:#ffffff;
-	border:1px solid #dcdcdc;
+	border:1px solid #dcdcdc ;
 }
 .top:before,.top:after{
 	content: '';
